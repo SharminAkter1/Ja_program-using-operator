@@ -34,4 +34,19 @@
 
     
     var rem = num1 % num2;
-    document.write (num1 + " % " + num2 + " = " + rem + "<br/><br/>");
+    document.write (num1 + " % " + num2 + " = " + rem + "<br/><br/><br/><br/>");
+
+
+
+
+    //Shape Area Calculate
+    document.write('Shape Area Calculate : ' + '<br/><br/>');
+
+    var base = parseFloat (prompt('Enter your base ='))
+    var height = parseFloat(prompt('Enter your height = '));
+
+    var Area = base * height;
+    document.write('RectangleArea = ' + Area + '<br/><br/>') ;
+
+    var Area = (base * height) / 2 ;
+    document.write('TriangleArea = ' + Area + '<br/><br/>');
